@@ -1,4 +1,4 @@
-#include "Compare.hpp"
+#include "../include/Compare.hpp"
 
 State Compare::target;
 int** Compare::obs_map;

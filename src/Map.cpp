@@ -1,4 +1,4 @@
-#include "Map.hpp"
+#include "../include/Map.hpp"
 
 Map::Map(){
 
@@ -10,7 +10,7 @@ Map::Map(){
 			obs_map[i][j]=0;
 	}
 
-	Mat obsmap=imread("map3.png", 0);
+	Mat obsmap=imread("maps/map3.png", 0);
 
 	for(int i=0;i<MAPX;i++)
 		for(int j=0;j<MAPY;j++)

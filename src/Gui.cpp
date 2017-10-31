@@ -1,4 +1,4 @@
-#include "Gui.hpp"
+#include "../include/Gui.hpp"
 
 GUI::GUI(int rows, int cols){
 	display_size=cv::Size(rows, cols);

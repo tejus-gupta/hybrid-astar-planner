@@ -1,4 +1,4 @@
-Sources=State.cpp Map.cpp Gui.cpp Compare.cpp Planner.cpp test.cpp
+Sources=src/State.cpp src/Map.cpp src/Gui.cpp src/Compare.cpp src/Planner.cpp test.cpp
 Target = astar
 
 # general compiler settings
