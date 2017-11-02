@@ -7,7 +7,7 @@ int** Compare::grid_obs_map;
 
 bool Compare::operator() (const State s1, const State s2){
 	//to do: replace by heuristic+cost comparison
-	return s1.cost3d+holonomic_with_obs(s1)+0.1*non_holonomic_without_obs(s1)>s2.cost3d+holonomic_with_obs(s2)+0.1*non_holonomic_without_obs(s2);
+	return s1.cost3d+holonomic_with_obs(s1)+0*non_holonomic_without_obs(s1)>s2.cost3d+holonomic_with_obs(s2)+0*non_holonomic_without_obs(s2);
 }
 
 typedef bool (*compare2dSignature)(State, State);
