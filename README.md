@@ -9,7 +9,7 @@ This code is the result of a project at the Autonomous Ground Vehicle (AGV) rese
 * [Rahul Kranti Kiran](https://github.com/KrantiKIran)
 
 ##### Images
-<img src="https://imgur.com/wDC3stV.png" alt="Example1" width="350"/> <img src="https://imgur.com/GZH6w0V.png" alt="Example2" width="350"/> 
+<img src="https://imgur.com/wDC3stV.png" alt="Example1" width="375"/> <img src="https://imgur.com/GZH6w0V.png" alt="Example2" width="375"/> 
 
 ##### Resources
 * [Practical Search Techniques in Path Planning for Autonomous Driving](https://ai.stanford.edu/~ddolgov/papers/dolgov_gpp_stair08.pdf)
