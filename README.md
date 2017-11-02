@@ -5,8 +5,8 @@ This repository contains the code for a real-time path planner for non-holonomic
 This code is the result of a project at the Autonomous Ground Vehicle (AGV) research group at Indian Institute of Technology Kharagpur. We have have tested this code on Eklavya, our lab's test vehicle. We used GPS waypoints as target and the binary obstacle map was generated using LIDAR mounted in the front of the vehicle. We used ROS for sensor interfacing.
 
 ##### Current Maintainers
-* [Tejus Gupta](github.com/tejus-gupta)
-* [Rahul Kranti Kiran](github.com/)
+* [Tejus Gupta](https://github.com/tejus-gupta)
+* [Rahul Kranti Kiran](https://github.com/KrantiKIran)
 
 ##### Images
 | <img src="https://imgur.com/wDC3stV.png" alt="Example1" width="450"/> | <img src="https://imgur.com/34KwZXA.png" alt="Example2" width="450"/> |
