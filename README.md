@@ -13,7 +13,7 @@ This code is the result of a project at the Autonomous Ground Vehicle (AGV) rese
 
 ##### Current Maintainers
 * [Tejus Gupta](https://github.com/tejus-gupta)
-* [Rahul Kranti Kiran](https://github.com/KrantiKIran)
+* [Rahul Kranti Kiran](https://github.com/krantikiran68)
 
 ##### Images
 <img src="https://imgur.com/wDC3stV.png" alt="Example1" width="400"/>             <img src="https://imgur.com/GZH6w0V.png" alt="Example2" width="400"/> 
