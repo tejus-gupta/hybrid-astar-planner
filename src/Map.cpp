@@ -151,15 +151,16 @@ void Map::find_near_obs()
          for(int i=node_p.x-1;i<=node_p.x+1;i++)
            for(int j=node_p.y-1;j<=node_p.y+1;j++)
            {
-             if(nearest_obstacle[i][j]==0&&i>=0&&i<MAPX&&j>=0&&j<MAPY&&obs_map[i][j]==0)
-             {
-               node_c.x=i;
-               node_c.y=j;
-               node_c.nearest_obstacle=node_p.nearest_obstacle+1;
+            if (i >= 0 && i < MAPX && j >= 0 && j < MAPY) { 
+				if (nearest_obstacle[i][j] == 0 && obs_map[i][j] == 0) {
+				node_c.x=i;
+				node_c.y=j;
+				node_c.nearest_obstacle=node_p.nearest_obstacle+1;
 
-               nearest_obstacle[i][j]=node_c.nearest_obstacle;
-               q.push(node_c);
-             }
+				nearest_obstacle[i][j]=node_c.nearest_obstacle;
+				q.push(node_c);
+				}
+			}
            }
        }
 
