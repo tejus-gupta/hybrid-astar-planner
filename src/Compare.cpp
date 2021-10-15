@@ -1,5 +1,5 @@
-#include "../include/Compare.hpp"
-
+#include "Compare.hpp"
+using namespace cv;
 State Compare::target;
 int** Compare::obs_map;
 float** Compare::shortest_2d;
