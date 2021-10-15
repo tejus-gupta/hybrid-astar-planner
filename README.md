@@ -11,6 +11,17 @@ This code is the result of a project at the Autonomous Ground Vehicle (AGV) rese
 	* 'holonomic-with-obstacles' uses shortest path in 2D computed using dijkstra ignoring holonomic constraints of vehicle
 * To improve search speed, the algorithm analytically expands nodes closer to goal using dubins path and checks it for collision with current obstacle map.
 
+##### Usage
+
+```sh
+mkdir build
+cd build
+cmake ..
+make -j
+cd ..
+./build/test
+```
+
 ##### Current Maintainers
 * [Tejus Gupta](https://github.com/tejus-gupta)
 * [Rahul Kranti Kiran](https://github.com/KrantiKIran)
